@@ -20,5 +20,5 @@ app.use(bodyParser.json());
 app.use('/api',require('./routes/api'));
 
 //start service:
-app.listen(1000);
-console.log('Serveris running on port 1000');
+app.listen(8080);
+console.log('Serveris running on port 8080');
